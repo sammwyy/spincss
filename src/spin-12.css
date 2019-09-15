@@ -1,0 +1,107 @@
+.spinner-12,  .spinner-12 * {
+      
+    }
+
+    .spinner-12 {
+       margin: 115px auto;
+      width: 40px;
+      height: 40px;
+    }
+
+    .spinner-12 .dots-container {
+      height: calc(70px / 7);
+      width: calc(70px / 7);
+    }
+
+    .spinner-12 .smaller-dot {
+      background: black;
+      height: 100%;
+      width: 100%;
+      border-radius: 50%;
+      animation: spinner-12-smaller-dot-animation 2.5s 0s infinite both;
+
+    }
+
+    .spinner-12 .bigger-dot {
+      background: black;
+      height: 100%;
+      width: 100%;
+      padding: 10%;
+      border-radius: 50%;
+      animation: spinner-12-bigger-dot-animation 2.5s 0s infinite both;
+    }
+
+    @keyframes spinner-12-bigger-dot-animation {
+      0%, 100% {
+        box-shadow: rgb(0, 0, 0) 0px 0px 0px,
+        rgb(0, 0, 0) 0px 0px 0px,
+        rgb(0, 0, 0) 0px 0px 0px,
+        rgb(0, 0, 0) 0px 0px 0px,
+        rgb(0, 0, 0) 0px 0px 0px,
+        rgb(0, 0, 0) 0px 0px 0px,
+        rgb(0, 0, 0) 0px 0px 0px,
+        rgb(0, 0, 0) 0px 0px 0px;
+      }
+
+      50% {
+        transform: rotate(180deg);
+      }
+
+      25%, 75% {
+        box-shadow: rgb(0, 0, 0) 26px 0px 0px,
+        rgb(0, 0, 0) -26px 0px 0px,
+        rgb(0, 0, 0) 0px 26px 0px,
+        rgb(0, 0, 0) 0px -26px 0px,
+        rgb(0, 0, 0) 19px -19px 0px,
+        rgb(0, 0, 0) 19px 19px 0px,
+        rgb(0, 0, 0) -19px -19px 0px,
+        rgb(0, 0, 0) -19px 19px 0px;
+      }
+
+      100% {
+        transform: rotate(360deg);
+        box-shadow: rgb(0, 0, 0) 0px 0px 0px,
+        rgb(0, 0, 0) 0px 0px 0px,
+        rgb(0, 0, 0) 0px 0px 0px,
+        rgb(0, 0, 0) 0px 0px 0px,
+        rgb(0, 0, 0) 0px 0px 0px,
+        rgb(0, 0, 0) 0px 0px 0px,
+        rgb(0, 0, 0) 0px 0px 0px,
+        rgb(0, 0, 0) 0px 0px 0px;
+      }
+    }
+
+    @keyframes spinner-12-smaller-dot-animation {
+      0%, 100% {
+        box-shadow: rgb(0, 0, 0) 0px 0px 0px,
+        rgb(0, 0, 0) 0px 0px 0px,
+        rgb(0, 0, 0) 0px 0px 0px,
+        rgb(0, 0, 0) 0px 0px 0px,
+        rgb(0, 0, 0) 0px 0px 0px,
+        rgb(0, 0, 0) 0px 0px 0px,
+        rgb(0, 0, 0) 0px 0px 0px,
+        rgb(0, 0, 0) 0px 0px 0px;
+      }
+
+      25%, 75% {
+        box-shadow: rgb(0, 0, 0) 14px 0px 0px,
+        rgb(0, 0, 0) -14px 0px 0px,
+        rgb(0, 0, 0) 0px 14px 0px,
+        rgb(0, 0, 0) 0px -14px 0px,
+        rgb(0, 0, 0) 10px -10px 0px,
+        rgb(0, 0, 0) 10px 10px 0px,
+        rgb(0, 0, 0) -10px -10px 0px,
+        rgb(0, 0, 0) -10px 10px 0px;
+      }
+
+      100% {
+        box-shadow: rgb(0, 0, 0) 0px 0px 0px,
+        rgb(0, 0, 0) 0px 0px 0px,
+        rgb(0, 0, 0) 0px 0px 0px,
+        rgb(0, 0, 0) 0px 0px 0px,
+        rgb(0, 0, 0) 0px 0px 0px,
+        rgb(0, 0, 0) 0px 0px 0px,
+        rgb(0, 0, 0) 0px 0px 0px,
+        rgb(0, 0, 0) 0px 0px 0px;
+      }
+    }
