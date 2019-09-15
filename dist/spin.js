@@ -1,3 +1,8 @@
+/*
+  SpinCss, a collection of css spinners
+  https://github.com/sammwyy/spincss
+*/
+
 function innerSpin (spin, inner) {
 	const spinners = document.getElementsByClassName(spin);
 	for (var i = 0; i < spinners.length; i++) {
