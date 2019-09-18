@@ -3,6 +3,7 @@
   https://github.com/sammwyy/spincss
 */
 
+// Inner spinner's sub divs
 function innerSpin (spin, inner) {
 	const spinners = document.getElementsByClassName(spin);
 	for (var i = 0; i < spinners.length; i++) {
@@ -10,6 +11,7 @@ function innerSpin (spin, inner) {
 	}
 }
 
+// Call the function for each spinner
 innerSpin("spinner-2", '<div class="double-bounce1"></div><div class="double-bounce2"></div>')
 innerSpin("spinner-3", '<div class="rect1"></div> <div class="rect2"></div> <div class="rect3"></div> <div class="rect4"></div> <div class="rect5"></div>');
 innerSpin("spinner-4", '<div class="cube1"></div> <div class="cube2"></div>');
