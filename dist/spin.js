@@ -1,5 +1,5 @@
 /*
-  SpinCss, a collection of css spinners
+  SpinCss, a free collection of internet css spinners
   https://github.com/sammwyy/spincss
 */
 
