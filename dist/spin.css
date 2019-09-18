@@ -3,10 +3,7 @@
   A set of free internet css spinners
 */
 
-.spin-wc {
-  display: none;
-}
-
+/* List of spinners with their animation */
 .spinner-1 {
   width: 40px;
   height: 40px;
