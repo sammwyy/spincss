@@ -7,7 +7,7 @@ a collection of free spinners for your website
 [12](https://epicmax.co/) Epicmax 
 
 ##  Live Demo:  
-https://2l-studios.com/spincss 
+https://2l-studios.com/proyectos/spincss 
 
 ### How to use:  
 1) Import style (dist/spin.css)  
