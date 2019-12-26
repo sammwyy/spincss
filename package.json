@@ -3,5 +3,15 @@
   "version": "1.0.0",
   "description": "a collection of css spins",
   "author": "Sammwy",
-  "license": "ISC"
+  "repository": {
+  	"type": "git",
+  	"url": "https://github.com/sammwyy/spincss.git"
+  },
+  "keywords":["css", "spin", "spinners", "spincss"],
+  "author": "Sammwy <sammwy.dev@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+  	"url": "https://github.com/sammwyy/spincss/issues"
+  },
+  "homepage": "https://github.com/sammwyy/spincss"
 }
