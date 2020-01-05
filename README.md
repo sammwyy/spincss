@@ -25,3 +25,5 @@ https://2l-studios.com/proyectos/spincss
 [...]
 <div class="spinner-11"></div>
 ```  
+
+###### Coded with ❤️
